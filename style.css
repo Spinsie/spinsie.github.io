@@ -1,0 +1,26 @@
+body, a, svg {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	flex-direction: row;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #161b22;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	padding: 10% 0;
+}
+
+svg {
+	fill: #f0f6fc;
+}
+
+h1 {
+	color: #f0f6fc;
+	text-align: center;
+}
